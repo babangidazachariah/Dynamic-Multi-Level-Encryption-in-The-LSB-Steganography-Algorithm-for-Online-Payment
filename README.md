@@ -7,4 +7,6 @@ To implement the proposed solution, various technologies such as <a href="https:
 The following are the papers that resulted form the project.
 
 [1] Babangida, Z., 2016. <a href="https://github.com/babangidazachariah/Dynamic-Multi-Level-Encryption-in-The-LSB-Steganography-Algorithm-for-Online-Payment/blob/main/A_Novel_Structured_Least_Significant_Bit.pdf"> A Novel Structured-Least Significant Bit Steganography Technique </a>. International Journal of Information Systems and Engineering, pp. 1-9.
+
+
 [2] Babangida, Z. & Ismail, M. Z., 2016. <a href="https://github.com/babangidazachariah/Dynamic-Multi-Level-Encryption-in-The-LSB-Steganography-Algorithm-for-Online-Payment/blob/main/Ismail_BabangidaZachariah.pdf"> A PROPOSED ONLINE SHOPPING AND PAYMENT FRAMEWORK WITH APPLICATION OF ENCRYPTION AND STEGANOGRAPHY FOR ENHANCED SECURITY </a>. International Journal of Information Systems and Engineering, 4(1), pp. 10-29.
