@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "406173788573",
+    "project_id": "realphpcloudbasedapp"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406173788573:android:f92ae9f1a0ba2a69",
+        "android_client_info": {
+          "package_name": "com.justintime.androidgcm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAotQ9GEM-cze8Keqt2c0DT-cu1iVwiio8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

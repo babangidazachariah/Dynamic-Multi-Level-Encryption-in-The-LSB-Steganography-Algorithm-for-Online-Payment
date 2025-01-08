@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item  android:id="@+id/approvedmerchants"
+        android:title="Approved Merchants"/>
+    <item  android:id="@+id/paidtransactions"
+        android:title="Paid Transactions"/>
+    <item  android:id="@+id/pendingtransactions"
+        android:title="Pending Transactions"/>
+
+    <item  android:id="@+id/registercard"
+        android:title="Register Card"/>
+
+    <item  android:id="@+id/logout"
+        android:title="Logout"/>
+
+</menu>
+

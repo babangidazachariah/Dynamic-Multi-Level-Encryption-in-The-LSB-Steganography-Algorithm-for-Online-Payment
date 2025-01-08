@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.justintime.androidgcm">
+
+
+    <!--
+        Adding permissions
+        -internet
+        -Wake_Lock
+        -C2D_Message
+    -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <permission
+        android:name="com.justintime.androidgcm.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="com.justintime.androidgcm.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:name="com.justintime.app.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/applogo"
+        android:label="@string/appName"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".Login"
+            android:label="@string/appName">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".CreateUser"
+            android:label="@string/createuseraccount">
+            <intent-filter>
+                <action android:name="com.justintime.androidgcm.CREATEUSER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".AnimationClass"
+            android:label="@string/empty">
+            <intent-filter>
+                <action android:name="com.justintime.androidgcm.ANIMATIONCLASS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity"
+            android:label="@string/regCard">
+            <intent-filter>
+                <action android:name="com.justintime.androidgcm.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".DisplayList"
+            android:label="@string/merchants">
+            <intent-filter>
+                <action android:name="com.justintime.androidgcm.DISPLAYLIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".GetAndProcessCaptcha"
+            android:label="@string/payProcessig">
+            <intent-filter>
+                <action android:name="com.justintime.androidgcm.GETANDPROCESSCAPTCHA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".PendingTransactions"
+            android:label="@string/pendingTransaction">
+            <intent-filter>
+                <action android:name="com.justintime.androidgcm.PENDINGTRANSACTIONS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".PaidTransactions"
+            android:label="@string/paidTransaction" >
+            <intent-filter>
+                <action android:name="com.justintime.androidgcm.PAIDTRANSACTIONS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".DisplayPurchasedItems"
+            android:label="@string/pending" >
+            <intent-filter>
+                <action android:name="com.justintime.androidgcm.DISPLAYPURCHASEDITEMS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!--
+          GCM Receiver
+      -->
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="com.gnirt69.gcmexample"/>
+            </intent-filter>
+        </receiver>
+
+        <!--
+            GCM Receiver Service
+        -->
+        <service android:name=".GCMPushReceiverService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </service>
+
+        <!--
+            GCM Registration Intent Service
+        -->
+        <service android:name=".GCMRegistrationIntentService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID"/>
+            </intent-filter>
+        </service><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+    </application>
+
+</manifest>
