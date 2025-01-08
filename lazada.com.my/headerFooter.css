@@ -1,0 +1,120 @@
+	/* Reset body padding and margins */
+	body { margin:0; padding:0; }
+	 
+	/* Make Header Sticky */
+	#topHeader_container { 
+		background:#00091a; 
+		border:1px solid #666; 
+		height:60px; left:0; 
+		position:fixed; width:100%; 
+		top:0; 
+	}
+	#topHeader{ 
+		line-height:60px; 
+		margin:0 auto; 
+		width:940px; 
+		text-align:center; 
+	}
+	/*Lower Header*/
+	#lowerHeader_container { 
+		background:#264d73; 
+		border:1px solid #666; 
+		height:60px; left:0; 
+		position:fixed; width:100%; 
+		top:122; 
+	}
+	#lowerHeader{ 
+		line-height:60px; 
+		margin:0 auto; 
+		width:940px; 
+		text-align:center; 
+	}
+	 
+	 #header_container { 
+		background:#264d73; 
+		border:1px solid #666; 
+		height:60px; left:0; 
+		position:fixed; width:100%; 
+		top:60; 
+	}
+	#header{ 
+		line-height:60px; 
+		margin:0 auto; 
+		width:940px; 
+		text-align:right; 
+	}
+	 
+	/* CSS for the content of page. I am giving top and bottom padding of 80px to make sure the header and footer do not overlap the content.*/
+	#container { 
+		margin:0 auto; 
+		overflow:auto; 
+		padding:80px 0; 
+		width:940px; 
+	}
+	#content{
+		
+	}
+	
+	/* Menu Related  0043363169*/
+	ul#menu {
+		padding: 0;
+	}
+
+	ul#menu li {
+		display: inline;
+	}
+
+	ul#menu li a {
+		background-color: black;
+		color: #e6e6e6;
+		padding: 10px 20px;
+		text-decoration: none;
+		border-radius: 4px 4px 0 0;
+	}
+
+	ul#menu li a:hover {
+		color:white;
+	}
+	 
+	 /**/
+	 
+	 
+	 /*Top Menu*/
+	 ul#topMenu {
+		padding: 0;
+		}
+
+	ul#topMenu li {
+		display: inline;
+	}
+
+	ul#topMenu li a {
+		background-color: #00091a;
+		color: #e6e6e6;
+		padding: 10px 20px;
+		text-decoration: none;
+		border-radius: 4px 4px 0 0;
+	}
+
+	ul#topMenu li a:hover {
+		color:white;
+	}
+	 
+	 
+	 
+	/* Make Footer Sticky */
+	#footer_container { 
+		background:#eee;
+		border:1px solid #666; 
+		bottom:0; 
+		height:60px; 
+		left:0; 
+		position:fixed; 
+		width:100%; 
+	}
+	#footer { 
+		line-height:60px; 
+		margin:0 auto; 
+		width:940px; 
+		text-align:center; 
+	}

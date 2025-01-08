@@ -1,0 +1,29 @@
+[	
+	{			
+		"title":"LAZADA",
+		"image":"http://104.199.190.90/cimb.com.my/merchants/logo/www.lazada.com.my5.png",
+		"rating":"RM117.1",
+		"releaseYear": "2016-08-12 17:15:53",
+		"genre":["http://146.148.55.110/lazada.com.my"]
+	},	
+	{			
+		"title":"LAZADA",
+		"image":"http://104.199.190.90/cimb.com.my/merchants/logo/www.lazada.com.my5.png",
+		"rating":"RM443.14",
+		"releaseYear": "2016-08-12 17:17:08",
+		"genre":["http://146.148.55.110/lazada.com.my"]
+	},	
+	{			
+		"title":"LAZADA",
+		"image":"http://104.199.190.90/cimb.com.my/merchants/logo/www.lazada.com.my5.png",
+		"rating":"RM100.7",
+		"releaseYear": "2016-08-12 17:18:07",
+		"genre":["http://146.148.55.110/lazada.com.my"]
+	},	
+	{			
+		"title":"LAZADA",
+		"image":"http://104.199.190.90/cimb.com.my/merchants/logo/www.lazada.com.my5.png",
+		"rating":"RM245.58",
+		"releaseYear": "2016-08-12 17:18:46",
+		"genre":["http://146.148.55.110/lazada.com.my"]
+	}]

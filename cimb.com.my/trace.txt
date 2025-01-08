@@ -1,0 +1,3 @@
+SQL: SELECT * FROM tblCards WHERE cardNumber = '1316134912' AND cardType ='Master' 
+					AND cardExperyMonth ='07' AND cardExperyYear ='20' 
+					AND cardCVC = '907' AND cardPin = '3496'
